@@ -1,0 +1,3 @@
+
+You can find the dataset in the paper:
+Iman Munire Bilal, Bo Wang, Adam Tsakalidis, Dong Nguyen, Rob Procter, and Maria Liakata. 2022. Template-based Abstractive Microblog Opinion Summarization. Transactions of the Association for Computational Linguistics, 10:1229–1248.
