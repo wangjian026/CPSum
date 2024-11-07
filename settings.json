@@ -1,0 +1,21 @@
+{
+  "gpuport": 12346,
+  "coverage": 0.3,
+  "diversity": 0.7,
+  "localport_sum": 9998,
+  "localport_eva": 9999,
+  "localport_eva2": 9997,
+  "localport_eva3": 9996,
+  "beta": 0.6,
+  "min_support_ratio": 0.3,
+  "max_iterNum":4,
+  "reward_threshold_convergence": 0.02,
+  "use_mode_lm": "use",
+  "support_words":["support","supports","assist","assists","approve","approves"],
+  "against_words":["against","againsts","not support","oppose","opposes","object to", "objects to","contradict","contradicts","resist","resists"],
+  "notclaarly_words":["not clearly"],
+  "sup_opp_prompt": "Determine whether document '{d}' supports or againsts the sentence '{s}'. Answer using the word below: 'support', 'against' or 'not clearly'.",
+  "initial_summary_prompt_bak6": "summarize the following documents to generate a 30 words summary that containing  different opinions:  #{document}. ",
+  "summary_prompt_bak6": "summarize the following documents to generate a 30 words summary: #{document}. \n During the summarization process, refer to the sentences in #{R}",
+  "sup_opp_prompt": "Determine whether document '{d}' supports or againsts the sentence '{s}'. Answer using the word below: 'support', 'against' or 'not clearly'."
+}
